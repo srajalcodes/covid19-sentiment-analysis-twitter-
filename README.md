@@ -1,12 +1,22 @@
 Twitter Sentiment Analysis on COVID-19 Tweets
+
+
 This project aims to analyze the sentiment of tweets related to COVID-19 using Python. It fetches tweets through the Twitter API, preprocesses the text data, performs sentiment analysis, and visualizes the results. The analysis helps in understanding public sentiment towards COVID-19, which can be useful for researchers, policymakers, and the general public.
 
+
 Features
+
 Data Collection: Fetches tweets using Twitter API based on a specific query (covid19).
+
 Data Preprocessing: Cleans the tweets by removing special characters, links, and non-alphabetic characters.
+
 Sentiment Analysis: Determines the sentiment (positive, negative, neutral) of each tweet.
+
 Data Visualization: Visualizes the distribution of sentiments and generates a word cloud to highlight the most frequent words in the tweets.
+
 Machine Learning Preparation: Prepares the dataset for machine learning models by converting text to numerical values using TF-IDF vectorization.
+
+
 Installation
 To run this project, you need Python 3.x and the following Python libraries installed:
 
@@ -17,6 +27,7 @@ scikit-learn
 nltk
 wordcloud
 textblob
+
 You can install these packages using pip:
 
 bash
