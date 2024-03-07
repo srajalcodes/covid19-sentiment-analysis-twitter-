@@ -9,7 +9,6 @@ Features
 Data Collection: Fetches tweets using Twitter API based on a specific query (covid19).
 
 Data Preprocessing: Cleans the tweets by removing special characters, links, and non-alphabetic characters.
-
 Sentiment Analysis: Determines the sentiment (positive, negative, neutral) of each tweet.
 
 Data Visualization: Visualizes the distribution of sentiments and generates a word cloud to highlight the most frequent words in the tweets.
